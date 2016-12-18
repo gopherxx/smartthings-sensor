@@ -2,7 +2,7 @@
  preferences {
     input("ip", "text", title: "IP Address", description: "ip", required: true)
     input("port", "number", title: "Port", description: "port", default: 9060, required: true)
-    //input("mac", "text", title: "MAC Addr", description: "mac")
+    input("mac", "text", title: "MAC Addr", description: "mac")
 }
  
  metadata {
